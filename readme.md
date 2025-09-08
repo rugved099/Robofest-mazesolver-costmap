@@ -10,17 +10,19 @@ Motors: N20 Micro Gear Motors with Encoders (precise motion + odometry)
 
 Motor Driver: TB6612FNG Dual H-Bridge
 
+buck converter: MP1584
+
+
+
 Sensors:
 
 TOF (VL53L0X) → Wall detection
 
-IMU (MPU6050) → Orientation & drift correction
-
-Wheel Encoders → Distance & heading feedback
-
 Wheels: 2 × 3pi MiniQ wheels + 1 castor wheel (stability)
 
 Battery: 2S Li-ion (7.4V nominal)
+
+Orientation sensor:BNO055
 
 Power Regulation: MP2338 Buck Converters (7.4V → 5V/3.3V rails)
 
